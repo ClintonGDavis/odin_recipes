@@ -5,3 +5,50 @@ body {
 ul {
     color: red;
 }
+
+button {
+    background-color: orange; font-size: 18px;
+}
+
+.odin-div {
+    background-color: red; color: white; font-size: 32px; text-align: center; font-weight: 900;
+}
+
+.odin-p {
+    background-color: green; color: white; font-size: 18px;
+}
+
+.odd {
+    background-color: rgb(250, 58, 90);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.adjust-font-size {
+    font-size: 24px;
+}
+
+.inverted,
+.fancy {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+
+.inverted {
+    background-color: black;
+    color: white;
+}
+
+.fancy {
+    background-color: yellow;
+}
+
+#two {
+    color: blue;
+    font-size: 36px;
+}
+
+#four {
+    color: rgb(8, 80, 8);
+    font-size: 24px;
+    font-weight: 900;
+}
