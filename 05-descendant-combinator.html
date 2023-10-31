@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Descendant Combinator</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <p class="text">This should be styled.</p>
+    </div>
+    <p class="text">This should be unstyled.</p>
+    <p class="text">This should be unstyled.</p>
+    <div class="container">
+      <p class="text">This should be styled.</p>
+      <p class="text">This should be styled.</p>
+      <p class="text text02">This is one special entry!</p>
+    </div>
+    <p class="text02">No Canolis on the Couch!</p>
+    <p></p>
+    <div class="ancestor">
+      <!-- This is the ancestor element -->
+      <div class="child">
+        <!-- This is the child element -->
+        Some text inside the child element.
+        <div class="grandchild">
+          <p></p>
+          Some Grandchild Stupidity.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
